@@ -117,19 +117,39 @@ int main(int argc, char *argv[])  //recibe los Arg de la termina argc =cantidad 
 
 
         //  ya  todo es valido
+        
         if (resultado == 1)
         {
             printf("Direccion: %d\n", direccion);
 
+
+            //Salida de cada dato
+            //DIRECTA
+           int tag_directa=direccion>>6;
+           int index_directa=(direccion>>4)&3;
+           int offset_directa=direccion & 15;
+
+            
+            //ASOCIATIVA
+           int tag_asociativa=direccion>>5;
+           int index_asociativa=(direccion>>4)&1;
+           int offset_asociativa=direccion & 15;
+
+            //Parte Bryan 
+
+
+           //Impresion. 
+            /*
+           printf("Directa -> Tag: %d Index: %d Offset: %d\n",
+           tag_directa, index_directa, offset_directa);
+
+           printf("Asociativa -> Tag: %d Index: %d Offset: %d\n",
+           tag_asociativa, index_asociativa, offset_asociativa);
+            */
+
+
             /*
                 Parte de Bryan
-
-                
-
-                
-                
-
-                
             */
         }
     }
