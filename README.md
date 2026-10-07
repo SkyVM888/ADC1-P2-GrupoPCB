@@ -56,15 +56,15 @@ gcc -std=c11 -Wall -Wextra -o main.exe main.c
 
 ### Ejecución
 
-Para ejecutar el simulador pasando como parámetro la ruta de un archivo de prueba ubicado en la carpeta `Pruebas/`:
+Para ejecutar el simulador pasando como parámetro la ruta de un archivo de prueba ubicado en la carpeta `pruebas/`:
 
 ```bash
-./main.exe Pruebas/{nombre_del_archivo}.txt
+./main.exe pruebas/{nombre_del_archivo}.txt
 ```
 **Ejemplo de ejecución:**
 
 ```bash
-./main.exe Pruebas/conflicto.txt
+./main.exe pruebas/conflicto.txt
 ```
 
 ## 📄 Archivos de Entrada (Pruebas/*.txt)
