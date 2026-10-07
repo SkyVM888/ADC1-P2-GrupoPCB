@@ -88,3 +88,7 @@ El programa despliega en consola:
 1. Traza Paso a Paso: Muestra para cada acceso la dirección enviada, sus campos extraídos (Tag, Index, Offset), el resultado del acceso (HIT / MISS) y la vía afectada o reemplazada.
 
 2. Resumen de Métricas: Tabla comparativa final entre la caché directa y la de 2 vías con total de accesos, aciertos, fallos, Hit Rate, Miss Rate y valor de AMAT.
+
+## 🚀 Entrega Oficial - Proyecto 2: Simulador de Memoria Caché en C11
+
+Esta etiqueta ([`p2-entrega`](https://github.com/SkyVM888/ADC1-P2-GrupoPCB/releases/tag/p2-entrega)) marca la versión final y funcional del simulador de memoria caché de 16 bits desarrollado en C11, correspondiente al curso de Arquitectura de Computadores (GR20).
